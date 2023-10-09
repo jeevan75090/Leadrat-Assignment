@@ -1,0 +1,43 @@
+.container{
+    /* overflow-y: scroll; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+  
+    
+
+}
+
+
+.selected{
+    filter: invert(95%) sepia(41%) saturate(6882%) hue-rotate(54deg) brightness(90%) contrast(108%);
+  }
+
+.booked{
+    filter: invert(17%) sepia(6%) saturate(5656%) hue-rotate(319deg) brightness(101%) contrast(96%);
+}
+.available{
+
+  }
+
+  .btn{
+    width: 100px;
+    height: 30px;
+    position:absolute ;
+    color: white;
+    background-color: red;
+    bottom: 10px;
+    right: 15%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .hover:hover {
+    cursor: pointer;
+    filter: invert(95%) sepia(41%) saturate(6882%) hue-rotate(54deg) brightness(90%) contrast(108%);
+  }
